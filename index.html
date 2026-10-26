@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Cleaner by Mecorven</title>
+  <meta name="description" content="Privacy Policy for Cleaner app by Mecorven. Learn how we handle your data with 100% on-device processing and strict user privacy.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-color: #0b0a10;
+      --card-bg: #15131e;
+      --card-border: #262235;
+      --accent: #E5A93C;
+      --accent-glow: rgba(229, 169, 60, 0.15);
+      --text-primary: #F4F4F8;
+      --text-secondary: #9E9AA8;
+      --text-muted: #6B6778;
+      --tag-bg: #1f1b2c;
+      --badge-green: #2ecc71;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-primary);
+      line-height: 1.7;
+      padding: 0;
+      margin: 0;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .header {
+      background: linear-gradient(180deg, #181424 0%, var(--bg-color) 100%);
+      border-bottom: 1px solid var(--card-border);
+      padding: 60px 20px 40px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 860px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--tag-bg);
+      border: 1px solid var(--card-border);
+      color: var(--accent);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      letter-spacing: 0.3px;
+    }
+
+    .badge::before {
+      content: "";
+      width: 8px;
+      height: 8px;
+      background-color: var(--badge-green);
+      border-radius: 50%;
+      display: inline-block;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      margin-bottom: 12px;
+      color: #FFFFFF;
+    }
+
+    .subtitle {
+      color: var(--text-secondary);
+      font-size: 1.05rem;
+      max-width: 600px;
+      margin: 0 auto 16px;
+    }
+
+    .meta {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    .main {
+      padding: 40px 0 80px;
+    }
+
+    .notice-card {
+      background: linear-gradient(135deg, rgba(229, 169, 60, 0.08) 0%, rgba(21, 19, 30, 0.8) 100%);
+      border: 1px solid rgba(229, 169, 60, 0.3);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 36px;
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+    }
+
+    .notice-icon {
+      font-size: 24px;
+      line-height: 1;
+      padding: 8px;
+      background: var(--accent-glow);
+      border-radius: 10px;
+      color: var(--accent);
+    }
+
+    .notice-content h3 {
+      font-size: 1.1rem;
+      color: var(--accent);
+      margin-bottom: 6px;
+    }
+
+    .notice-content p {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+      margin: 0;
+    }
+
+    .section {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 32px;
+      margin-bottom: 24px;
+    }
+
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: #FFFFFF;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      letter-spacing: -0.01em;
+    }
+
+    h2 .num {
+      color: var(--accent);
+      font-size: 1rem;
+      background: var(--tag-bg);
+      padding: 2px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+    }
+
+    p {
+      color: var(--text-secondary);
+      margin-bottom: 14px;
+      font-size: 0.98rem;
+    }
+
+    p:last-child {
+      margin-bottom: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+      margin: 14px 0;
+    }
+
+    li {
+      position: relative;
+      padding-left: 26px;
+      color: var(--text-secondary);
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+
+    li::before {
+      content: "•";
+      color: var(--accent);
+      position: absolute;
+      left: 8px;
+      font-size: 1.2rem;
+      line-height: 1.4;
+    }
+
+    li strong {
+      color: var(--text-primary);
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 16px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      text-align: left;
+    }
+
+    th {
+      background: #1c1828;
+      color: var(--text-primary);
+      padding: 12px 14px;
+      border: 1px solid var(--card-border);
+      font-weight: 600;
+    }
+
+    td {
+      padding: 12px 14px;
+      border: 1px solid var(--card-border);
+      color: var(--text-secondary);
+    }
+
+    .footer {
+      border-top: 1px solid var(--card-border);
+      padding: 30px 20px;
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="header">
+    <div class="container">
+      <div class="badge">Google Play Compliant Privacy Disclosure</div>
+      <h1>Privacy Policy</h1>
+      <p class="subtitle">Cleaner — Intelligent On-Device Storage & Media Cleanup</p>
+      <div class="meta">Developer: <strong>Mecorven</strong> | Effective Date: October 26, 2026</div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+
+      <!-- Core Guarantee Box -->
+      <div class="notice-card">
+        <div class="notice-icon">🛡️</div>
+        <div class="notice-content">
+          <h3>100% On-Device Processing Guarantee</h3>
+          <p>Cleaner processes all file scans, duplicates identification, and storage calculations strictly locally on your device. We never upload, transmit, monitor, or store your private photos, videos, or documents on external cloud servers.</p>
+        </div>
+      </div>
+
+      <!-- Section 1 -->
+      <section class="section">
+        <h2><span class="num">01</span> Introduction</h2>
+        <p>This Privacy Policy describes how <strong>Mecorven</strong> ("we", "us", or "our") handles user information in connection with the <strong>Cleaner</strong> mobile application for Android. By installing and using Cleaner, you agree to the terms described in this policy.</p>
+        <p>Our principal mission is to provide powerful, transparent device storage optimization without compromising your digital privacy.</p>
+      </section>
+
+      <!-- Section 2 -->
+      <section class="section">
+        <h2><span class="num">02</span> Data We Access & Permissions Required</h2>
+        <p>To function as a device cleanup and media management tool, Cleaner requires access to device storage. Here is an explicit breakdown of what permissions we request and why:</p>
+
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Permission</th>
+                <th>Purpose</th>
+                <th>Processing Type</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Read Media Images & Videos</strong><br><small>(READ_MEDIA_IMAGES, READ_MEDIA_VIDEO)</small></td>
+                <td>To scan for duplicate photos, large video files, similar images, and screenshots you may choose to remove.</td>
+                <td>100% Local (On-Device)</td>
+              </tr>
+              <tr>
+                <td><strong>All Files Access</strong><br><small>(MANAGE_EXTERNAL_STORAGE)</small></td>
+                <td>Used strictly for core cleaning features: locating temporary cache files, obsolete APKs, large leftover downloads, and WhatsApp media cleanup selected by the user.</td>
+                <td>100% Local (On-Device)</td>
+              </tr>
+              <tr>
+                <td><strong>Storage Stats & Filesystem</strong><br><small>(StatFs / Environment)</small></td>
+                <td>Calculates real-time internal storage statistics (total capacity, used gigabytes, and free disk space) displayed on the home dashboard.</td>
+                <td>100% Local (On-Device)</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p><strong>Explicit Exclusion:</strong> We do <em>not</em> request or utilize <code>QUERY_ALL_PACKAGES</code>. We do not inspect personal installed applications, contacts, location, microphone, or camera data.</p>
+      </section>
+
+      <!-- Section 3 -->
+      <section class="section">
+        <h2><span class="num">03</span> How We Use Scanned Data</h2>
+        <p>Information accessed on your device is used solely to execute user-initiated actions:</p>
+        <ul>
+          <li><strong>Duplicate & Similar Photo Detection:</strong> Comparing visual and structural hashes of media locally to present cleaning recommendations.</li>
+          <li><strong>Large Files & WhatsApp Media:</strong> Identifying high-capacity media files so you can reclaim device storage.</li>
+          <li><strong>Cache & Junk File Removal:</strong> Deleting unneeded temporary files only after you review and approve the action.</li>
+        </ul>
+      </section>
+
+      <!-- Section 4 -->
+      <section class="section">
+        <h2><span class="num">04</span> Data Sharing & Third Parties</h2>
+        <p>We believe your personal files belong only to you:</p>
+        <ul>
+          <li><strong>No Data Sales:</strong> We never sell, rent, or monetize your personal files, media, or usage information.</li>
+          <li><strong>No File Uploads:</strong> Files selected for cleanup are deleted directly through Android's local filesystem APIs. No file content ever leaves your device.</li>
+          <li><strong>Diagnostic Services:</strong> Standard, non-personally identifiable diagnostic or crash reports may be collected by Google Play Services solely to ensure app stability.</li>
+        </ul>
+      </section>
+
+      <!-- Section 5 -->
+      <section class="section">
+        <h2><span class="num">05</span> User Control & Managing Permissions</h2>
+        <p>You have full authority over all permissions:</p>
+        <ul>
+          <li>You can grant or revoke storage permissions at any time via <strong>Settings &gt; Apps &gt; Cleaner &gt; Permissions</strong>.</li>
+          <li>Revoking storage access disables scanning features but does not alter or delete any existing files on your phone.</li>
+          <li>All file deletions within the app require explicit user confirmation.</li>
+        </ul>
+      </section>
+
+      <!-- Section 6 -->
+      <section class="section">
+        <h2><span class="num">06</span> Children’s Privacy (COPPA Compliance)</h2>
+        <p>Cleaner does not knowingly solicit or collect any personal information from children under the age of 13. If you believe any minor has provided personal data, please contact us and we will promptly address it.</p>
+      </section>
+
+      <!-- Section 7 -->
+      <section class="section">
+        <h2><span class="num">07</span> Contact Us</h2>
+        <p>If you have questions, feedback, or inquiries regarding this Privacy Policy or data protection, please contact us at:</p>
+        <p>
+          <strong>Developer:</strong> Mecorven<br>
+          <strong>Email:</strong> <a href="mailto:support@mecorven.com">support@mecorven.com</a><br>
+          <strong>Location:</strong> Delhi, India
+        </p>
+      </section>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      &copy; 2026 Mecorven. All rights reserved. | Cleaner for Android
+    </div>
+  </footer>
+
+</body>
+</html>
